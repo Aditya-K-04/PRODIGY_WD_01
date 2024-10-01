@@ -1,0 +1,43 @@
+.hero {
+    height: 100vh;
+    background-image: url('https://www.simplilearn.com/ice9/free_resources_article_thumb/Programming_Courses.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    color: white;
+}
+
+.hero h1 {
+    font-size:50px;
+    font-style: oblique;
+    width:fit-content;
+    background-position: center;
+    min-height: fit-content;
+    background-color:beige;
+    background-size: contain;
+    
+    color: red;
+    text-align: start; /* Align the heading to the left */
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-style: oblique;
+    
+    backface-visibility: initial;
+    color: #ffeb3b;
+    text-align: left; /* Align paragraph to the left */
+}
+
+.cta-button {
+    background-color: #ffeb3b;
+    width: fit-content;
+    min-height: min-content;
+    color: #333;
+    text-align: justify;
+    margin-left: 0; /* Left align the button */
+}

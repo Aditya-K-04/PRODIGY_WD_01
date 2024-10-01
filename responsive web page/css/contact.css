@@ -1,0 +1,101 @@
+/* Contact Us Section */
+.section {
+    padding: 50px;
+    background-color: #151415;
+    text-align: center;
+    background-image: url(https://png.pngtree.com/background/20240404/original/pngtree-education-concept-online-education-on-chalkboard-background-drawing-course-chalkboard-background-picture-image_8373174.jpg);
+    background-size: cover;
+}
+
+h2 {
+    color: #bcf70a;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #eb103c;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #1a1902;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px 20px 15px 45px; /* Add space for the icon */
+    border: 2px solid #6a1b9a;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #0c0601;
+}
+
+input:focus, textarea:focus {
+    border-color: #d81b60;
+    outline: none;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.cta-button {
+    background-color: #d81b60;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #880e4f;
+}
+
+/* Contact Info Section */
+.contact-info {
+    margin-top: 40px;
+}
+
+.contact-info h3 {
+    color: #d8f30b;
+}
+
+.contact-info p {
+    color: #c60c0c;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.contact-info i {
+    color: #d71515;
+    margin-right: 10px;
+}

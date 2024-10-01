@@ -1,0 +1,40 @@
+/* About Section */
+.section {
+    padding: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: #555152;
+    color: #e6f106;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.background-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.bgimage, .bgimage1, .bgimage2 {
+    width: 30%; 
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.bgimage {
+    background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/20230808160224/DSA.webp');
+    background-position: left;
+}
+
+.bgimage1 {
+    background-image: url('https://www.boardinfinity.com/blog/content/images/2023/01/Mern.png');
+    background-position: center;
+}
+
+.bgimage2 {
+    background-image: url('https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_Data_Science.jpg');
+    background-position: right;
+}
